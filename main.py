@@ -37,7 +37,7 @@ results = []
 # to search
 for i in range (0,len(a1)) :
     query = "youtube "+ str(a1[i])
-    for j in search(query, tld="co.in", num=1, stop=1, pause=3):
+    for j in search(query, tld="co.in", num=1, stop=1, pause=2):
         print(j)
         if 'youtube' in j :
             results.append(j)
